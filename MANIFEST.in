@@ -1,2 +1,3 @@
 include *.rst *.txt *.md
 recursive-include docs *.rst *.txt *.md
+recursive-include sprocket example

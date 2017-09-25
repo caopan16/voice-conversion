@@ -11,12 +11,20 @@ CHANGES = open('CHANGES.md').read()
 
 setup(
     name="sprocket",
-    version="0.2.0",
-    description="Voice conversion tool kit",
+    version="0.2.4",
+    description='sprocket: Voice Conversion Tool Kit',
     url='https://github.com/k2kobayashi/sprocket',
-    author='Kazuhiro Kobayashi',
+    author='Kazuhiro KOBAYASHI',
+    author_email='root.4mac@gmail.com',
     packages=find_packages(),
     long_description=(README + '\n' + CHANGES),
     license='MIT',
     install_requires=open('requirements.txt').readlines(),
+    classifiers=[
+        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3.6',
+        'Topic :: Multimedia :: Sound/Audio :: Speech',
+        'Topic :: Multimedia :: Sound/Audio :: Conversion',
+        'License :: OSI Approved :: MIT License',
+    ]
 )
